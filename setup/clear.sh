@@ -7,7 +7,7 @@
 # of Python 2 from the repository, this will change once Android 11 releases.
 
 # Build dependencies.
-sudo swupd bundle-add AOSP-dev git
+sudo swupd bundle-add AOSP-dev git python3-basic
 
 # UDEV
 echo "Setting up ADB UDEV rules..."
